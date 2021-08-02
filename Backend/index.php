@@ -1,20 +1,9 @@
 <?php
-
-$i = 0;
-while ($i < 10){
-    echo "$i <br />";
-    $i++;
-}
-
+$arr = [1, 2, 56, 58, 78, 8, 9, -3, 36, 52];
 $summa = 0;
-$i = 10;
-$n = 40;
-while ($i <= $n){
-    $summa += $i;
-    $i += 2;
+for ($i = 0; $i < count($arr); $i++){
+    $summa += $arr[$i];
 }
-echo "$summa";
-
-echo "<br />";
+echo $summa;
 
 ?>
