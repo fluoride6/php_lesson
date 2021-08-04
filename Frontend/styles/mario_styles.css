@@ -1,0 +1,86 @@
+body {
+    background-image: url(../images/bonus.jpg);
+}
+
+h1 {
+    text-align: center;
+    color: #ff0000;
+}
+
+.header_table {
+    border: 0;
+    width: 1200px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header_table col {
+    background-color: #87ceeb;
+}
+
+.content_table {
+    border: 0;
+    width: 900px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+}
+
+.content_table col {
+    background-color: #fffafa;
+}
+
+.content_table th {
+    vertical-align: top;
+    text-align: left;
+}
+
+.Mario_1 {
+    width: 200px;
+    height: 230px;
+    float: left;
+}
+
+.content_table th {
+    font-size: 1.51em;
+    font-weight: 100;
+}
+
+.Mario_2 {
+    float: right;
+    width: 370px;
+    height: 350px;
+}
+
+.content_header_2 {
+    color: #0000cd;
+    text-decoration: underline;
+    text-align: center;
+    font-weight: 1000;
+    padding-top: 10px;
+}
+
+.bottom_table {
+    border: 0;
+    width: 1200px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+}
+
+.bottom_table col {
+    background-color: #87ceeb;
+}
+
+.bottom_table th {
+    color: #ff0000;
+}
+
+.Mario_3 {
+    width: 150px;
+    height: 80px;
+    float: right;
+}

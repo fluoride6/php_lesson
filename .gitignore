@@ -1,2 +1,4 @@
+#Git ignore file to ignore not related to repo files
+
 #idea folder
 .idea/
