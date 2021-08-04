@@ -1,5 +1,5 @@
 body {
-    background-image: url(../images/bonus.jpg);
+    /*background-image: url(../images/bonus.jpg);*/
 }
 
 h1 {
@@ -83,4 +83,28 @@ h1 {
     width: 150px;
     height: 80px;
     float: right;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    body {
+        background-color: #eff1f3;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+        background-color: #27187e;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        background-color: #c71f37;
+    }
+}
+
+@media screen and (min-width: 1284px) {
+    body {
+        background-color: #147df5;
+    }
 }
