@@ -1,9 +1,10 @@
 .header h2 {
     font-weight: 100;
+    text-align: center;
 }
 
 .wrapper {
-    display: flex;
+    /*display: flex;*/
 }
 
 .left {
@@ -15,6 +16,7 @@
 
 .left p {
     color: gray;
+    font-size: 19px;
 }
 
 .left p:hover {
@@ -29,12 +31,12 @@
 .right {
     width: auto;
     height: auto;
-    padding: 0em 1em;
+    padding: 0em;
 }
 
 .right .text {
-    font-size: 12px;
-    padding: 0.8em 1em;
+    font-size: 17px;
+    padding: 0em 1em;
 }
 
 .tooltiptail {
@@ -42,14 +44,44 @@
     border-color: #83ef48 #ffffff #83ef48 #83ef48;
     border-style: solid;
     border-width: 10px;
-    width: 0px;
-    height: 0px;
-    margin-left: 1em;
-    margin-right: -1em;
+    width: 0;
+    height: 0;
+    margin-left: 6.17em;
+    margin-right: -3em;
     margin-top: 1em;
 }
 
 .inner_wrapper {
     display: flex;
-    height: 2em;
+    height: 2.5em;
+}
+
+@media sreen and (min-width: 769px) {
+    .tooltiptail {
+        display: block;
+        border-style: solid;
+        border-width: 10px;
+        width: 0;
+        height: 0;
+        margin-left: 10em;
+        margin-right: -3em;
+        margin-top: 1em;
+    }
+}
+
+@media sreen and (min-width: 1025px) {
+    .wrapper {
+        display: flex;
+    }
+
+    .tooltiptail {
+        display: block;
+        border-style: solid;
+        border-width: 10px;
+        width: 0;
+        height: 0;
+        margin-left: 20em;
+        margin-right: -3em;
+        margin-top: 1em;
+    }
 }
