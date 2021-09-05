@@ -16,7 +16,7 @@ $arr = [
 ];
 $summa = 0;
 foreach ($arr as $item)
-    $summa += $item['age']
+    $summa += $item['age'];
 $result = $summa / count($arr);
 echo $result;
 ?>
