@@ -1,5 +1,5 @@
 <?php
-$a = 8;
+$a = mt_rand(0, 15);
 switch ($a) {
     case 0:
         echo "0" . '<br />';

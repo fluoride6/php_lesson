@@ -16,4 +16,5 @@ function mathOperation($arg1, $arg2, $operation)
             return $arg1 / $arg2;
     }
 }
+
 echo mathOperation(8, 0, "divide");
